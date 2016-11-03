@@ -14,7 +14,7 @@ namespace assignment_attempt_2.ClubModels
         [Key,Column(Order =1)]
         public Guid memberID { get; set; }
         [Key, Column(Order = 2)]
-        public Guid StudentID { get; set; }
+        public string StudentID { get; set; }
         public bool approved { get; set; }
     }
 }
