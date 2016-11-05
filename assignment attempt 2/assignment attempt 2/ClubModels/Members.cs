@@ -10,11 +10,25 @@ namespace assignment_attempt_2.ClubModels
 {
     [Table("Member")]
     public class Member
-    {   
+    {
+
         [Key,Column(Order =1)]
-        public Guid memberID { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int memberID { get; set; }
         [Key, Column(Order = 2)]
         public string StudentID { get; set; }
-        public bool approved { get; set; }
+        public int approved { get; set; }
+
+        public ClubEvent ClubEvent
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

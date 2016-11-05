@@ -22,7 +22,29 @@ namespace assignment_attempt_2.ClubModels
         public int adminID { get; set; }
         public virtual ICollection<Member> clubMembers { get; set; }
         public virtual ICollection<ClubEvent> clubEvents { get; set; }
-        
-        
+
+        public ClubEvent ClubEvent
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
+
+        public Member Member
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }
