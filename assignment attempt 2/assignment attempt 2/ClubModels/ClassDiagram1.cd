@@ -14,8 +14,8 @@
       <Path>
         <Point X="6.25" Y="2.375" />
         <Point X="6.745" Y="2.375" />
-        <Point X="6.745" Y="2.062" />
-        <Point X="7.75" Y="2.062" />
+        <Point X="6.745" Y="2.063" />
+        <Point X="7.75" Y="2.063" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="0.006" Y="0.456" />
@@ -39,6 +39,14 @@
   </Class>
   <Class Name="assignment_attempt_2.ClubModels.Member">
     <Position X="7.75" Y="1" Width="1.5" />
+    <AssociationLine Name="ClubEvent" Type="assignment_attempt_2.ClubModels.ClubEvent" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.488" />
+        <Point X="8.5" Y="3.575" />
+        <Point X="2.438" Y="3.575" />
+        <Point X="2.438" Y="3.2" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAMAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
       <FileName>ClubModels\Members.cs</FileName>
