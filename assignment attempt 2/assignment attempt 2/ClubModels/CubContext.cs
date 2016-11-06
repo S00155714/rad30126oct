@@ -6,7 +6,7 @@ using System.Web;
 
 namespace assignment_attempt_2.ClubModels
 {
-    public class CubContext
+    public class CubContext : DbContext
     {
         public DbSet<Club> Clubs { get; set; }
 
@@ -15,5 +15,16 @@ namespace assignment_attempt_2.ClubModels
         public DbSet<Student> Students { get; set; }
 
         public DbSet<ClubEvent> ClubEvents { get; set; }
+
+        public CubContext() :base ("DefaultConnection")
+        {
+            
+        }
+
+        public static CubContext create()
+        {
+            return new CubContext();
+        }
+              
     }
 }

@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="assignment_attempt_2.ClubModels.Club">
-    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.5" />
     <AssociationLine Name="ClubEvent" Type="assignment_attempt_2.ClubModels.ClubEvent" ManuallyRouted="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="2.375" />
-        <Point X="4.255" Y="2.375" />
-        <Point X="4.255" Y="2.625" />
-        <Point X="3.25" Y="2.625" />
+        <Point X="3.5" Y="2.375" />
+        <Point X="3.036" Y="2.375" />
+        <Point X="3.036" Y="2.625" />
+        <Point X="2" Y="2.625" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Member" Type="assignment_attempt_2.ClubModels.Member" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.25" Y="2.375" />
-        <Point X="6.745" Y="2.375" />
-        <Point X="6.745" Y="2.063" />
-        <Point X="7.75" Y="2.063" />
+        <Point X="5" Y="2.375" />
+        <Point X="5.375" Y="2.375" />
+        <Point X="5.375" Y="2.063" />
+        <Point X="6.25" Y="2.063" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.006" Y="0.456" />
+        <Position X="0.11" Y="0.164" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -31,21 +31,24 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="assignment_attempt_2.ClubModels.ClubEvent">
-    <Position X="1.75" Y="0.75" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAIEAAAAIAAEAAAAAIAAAAAAAQAAAAAAAAACAAAAAA=</HashCode>
       <FileName>ClubModels\ClubEvent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="assignment_attempt_2.ClubModels.Member">
-    <Position X="7.75" Y="1" Width="1.5" />
+    <Position X="6.25" Y="1" Width="1.5" />
     <AssociationLine Name="ClubEvent" Type="assignment_attempt_2.ClubModels.ClubEvent" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="8.5" Y="2.488" />
-        <Point X="8.5" Y="3.575" />
-        <Point X="2.438" Y="3.575" />
-        <Point X="2.438" Y="3.2" />
+        <Point X="7" Y="2.488" />
+        <Point X="7" Y="3.575" />
+        <Point X="1.188" Y="3.575" />
+        <Point X="1.188" Y="3.2" />
       </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-3.513" Y="0.089" />
+      </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAMAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
